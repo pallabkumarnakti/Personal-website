@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/0417cf03ca.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="PW-CSS/pwstyle.css">
+  <link rel="icon" href="PW-IMAGE/pwfavicon1.ico">
+  <title>Personal Website</title>
+</head>
+
+<body>
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid navbarpad">
+      <a class="brand" href="#"> <span class="invisi"><</span>My_Site<span class="invisi">/></span> </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+        <i class="fas fa-chevron-circle-down"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link " href="#title">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <div id="title" class="title">
+    <h1 class="title-head">Hi, I'm Pallab</h1>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2500">
+      <div class="carousel-inner">
+        <div class="title-text carousel-item active">
+  <p>A beginner web-developer</p>
+        </div>
+        <div class="title-text carousel-item">
+  <p>This is my first published website</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <div class="about">
+    <h1 class="about-head">About</h1>
+    <div class="row">
+      <div class="col-lg-12 col-sm-12">
+        <div class="card about-me">
+          <div class="card-body">
+            <img class="card-img" data-bs-toggle="popover" title="Hello, this is me 😁" src="PW-IMAGE\Pallab.jpg" alt="Pallab Kumar Nakti">
+            <h2 class="about-me-head">About Me</h2>
+            <p>Hi, this is me and currently I live in Bangladesh. I am a student Notre Dame College, Dhaka. I've recenty started web developing seriously. This is my first well-efforted website. You can contact with me through the Contact section or
+              by using the information given in that section.</p>
+            <a href="https://www.facebook.com/Pallab.K.N" target="_blank" class="btn btn-outline-dark">Go to my Facebook Profile.</a>
+            <p class="hover-me">Hover over me</p>
+          </div>
+        </div>
+      </div>
+      <div class="about-skills col-lg-6 col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">About My Skills</h5>
+            <table class="table">
+              <thead>
+                <tr class="topics">
+                  <th scope="col">No.</th>
+                  <th scope="col">Topic</th>
+                  <th scope="col">Progress</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>HTML5</td>
+                  <td><progress value="90" max="100"></progress></td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>CSS3</td>
+                  <td><progress value="70" max="100"></progress></td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Bootstrap v5.0</td>
+                  <td><progress value="70" max="100"></progress></td>
+                </tr>
+                <tr>
+                  <th scope="row">4</th>
+                  <td>EJS6</td>
+                  <td><progress value="30" max="100"></progress></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="contact">
+    <h1 class="contact-head">Contact Me</h1>
+    <h4>Contact with me via e-mail:</h4>
+
+    <div class="form">
+
+    <form action="mailto:pallabkumar547@gmail.com" method="post" enctype="text/plain" id="form">
+
+      <div class="input-group flex-nowrap">
+  <span class="input-group-text" id="addon-wrapping">Name: </span>
+  <input type="text" class="form-control" name="Name" placeholder="Jon Snow" aria-label="Username" aria-describedby="addon-wrapping">
+</div>
+      <div class="input-group flex-nowrap">
+        <span class="input-group-text" id="addon-wrapping">Email Address: </span>
+        <input type="email" class="form-control"  name="Mail-address" placeholder="daenerys@targaryen.com" aria-label="Username" aria-describedby="addon-wrapping">
+      </div>
+
+      <div class="input-group flex-nowrap">
+  <span class="input-group-text" id="addon-wrapping">Email subject: </span>
+  <input type="text" class="form-control" name="Mail-subject" placeholder="Greetings, Jon Snow" aria-label="Username" aria-describedby="addon-wrapping">
+</div>
+
+<div class="input-group">
+  <span class="input-group-text">Write <br> your message:</span>
+  <textarea class="form-control" rows="3.5" maxlength="200" name="Message"placeholder="Fire and Blood" aria-label="With textarea"></textarea>
+</div>
+
+<button type="submit" type="button"class="submit-btn btn btn-outline-dark" form="form" value="Submit">Send</button>
+</form>
+
+</div>
+<div>
+     <div class="container-fluid">
+  <div class="row">
+
+    <div id="contact-link-div" class="col-xl-3 col-lg-3 col-md-5 col-sm-1">
+      <a target="_blank" class="contact-link" href="https://www.facebook.com/Pallab.K.N"><i class="fab fa-facebook-square fa-5x"></i></a>
+    </div>
+
+
+    <div id="contact-link-div" class="col-xl-3 col-lg-3 col-md-5 col-sm-1">
+    <a target="_blank" type="email" class="contact-link" href="mailto:pallabkumar547@gmail.com"> <i class="fas fa-at fa-5x"></i></a>
+    </div>
+
+     <div id="contact-link-div" class="col-xl-3 col-lg-3 col-md-4 col-sm-1">
+      <a target="_blank" class="contact-link" href="https://www.linkedin.com/in/pallab-kumar-nakti-b94458206/"><i class="fab fa-linkedin fa-5x"></i></a>
+    </div>
+
+  </div>
+</div>
+  </div>
+  </div>
+</body>
+
+</html>
